@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us – NKS Group (Pty) Ltd</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Barlow:wght@300;400;500;600&family=Barlow+Condensed:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo"><img src="images/logo.png" alt="NKS Group Logo"/></a>
+      <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="industries.html">Industries</a></li>
+        <li><a href="community.html">Community</a></li>
+        <li><a href="careers.html">Careers</a></li>
+        <li><a href="contact.html" class="active nav-cta">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="page-hero">
+    <div class="page-hero-content">
+      <div class="section-tag light">Get in Touch</div>
+      <h1>Contact Us</h1>
+      <p>Ready to streamline your operations? Let's talk about how NKS Group can help your business.</p>
+    </div>
+  </div>
+
+  <!-- CONTACT SECTION -->
+  <section class="section contact-section">
+    <div class="container two-col contact-cols">
+
+      <!-- CONTACT INFO -->
+      <div class="contact-info">
+        <div class="section-tag">Direct Contact</div>
+        <h2 class="section-title">Let's Work Together</h2>
+        <p>NKS Group is more than a service provider — we are your strategic partner in operational excellence. Reach out to us today to discover how we can support your growth.</p>
+
+        <div class="contact-cards">
+          <div class="contact-card">
+            <div class="contact-card-icon">👤</div>
+            <div>
+              <h4>General Manager</h4>
+              <p><strong>Dumisile Nene</strong></p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-card-icon">📞</div>
+            <div>
+              <h4>Phone</h4>
+              <a href="tel:0817552498">081 755 2498</a>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-card-icon">✉️</div>
+            <div>
+              <h4>General Enquiries</h4>
+              <a href="mailto:admin@nksgroup.co.za">admin@nksgroup.co.za</a>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-card-icon">💼</div>
+            <div>
+              <h4>Sales & Business Development</h4>
+              <a href="mailto:sales@nksgroup.co.za">sales@nksgroup.co.za</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-badge">
+          <span>🇿🇦 100% South African Owned</span>
+          <span>✅ B-BBEE Compliant</span>
+          <span>⭐ 15+ Years Experience</span>
+        </div>
+      </div>
+
+      <!-- ENQUIRY FORM (mailto-based, no server needed) -->
+      <div class="contact-form-wrap">
+        <h3>Send Us an Enquiry</h3>
+        <p class="form-note">Fill in the form below and we'll get back to you within 1 business day.</p>
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">First Name *</label>
+              <input type="text" id="fname" name="fname" required placeholder="Your first name"/>
+            </div>
+            <div class="form-group">
+              <label for="lname">Last Name *</label>
+              <input type="text" id="lname" name="lname" required placeholder="Your last name"/>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="company">Company Name *</label>
+            <input type="text" id="company" name="company" required placeholder="Your company or organisation"/>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" required placeholder="your@email.com"/>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="Your contact number"/>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="service">Service of Interest</label>
+            <select id="service" name="service">
+              <option value="">— Select a service —</option>
+              <option>Rework & Packaging</option>
+              <option>Cleaning & Hygiene Services</option>
+              <option>Maintenance Support</option>
+              <option>Warehouse Management</option>
+              <option>Inbound & Outbound Logistics</option>
+              <option>Labour Supply</option>
+              <option>Multiple Services / General Enquiry</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Tell us about your operational requirements and how we can help..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-width">Send Enquiry</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="container">
+      <h2>NKS Group (Pty) Ltd</h2>
+      <p>Your Partner in Progress. · Empowering Operations. Empowering People.</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="images/logo.png" alt="NKS Group" class="footer-logo"/>
+        <p>NKS Group (Pty) Ltd<br/>Your Partner in Progress.</p>
+        <p class="footer-tag">Precision. Reliability. Efficiency.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="industries.html">Industries</a></li>
+          <li><a href="community.html">Community</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <p>Dumisile Nene – General Manager</p>
+        <p><a href="tel:0817552498">081 755 2498</a></p>
+        <p><a href="mailto:admin@nksgroup.co.za">admin@nksgroup.co.za</a></p>
+        <p><a href="mailto:sales@nksgroup.co.za">sales@nksgroup.co.za</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 NKS Group (Pty) Ltd. All rights reserved. | 100% Black-Owned | B-BBEE Compliant</p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
